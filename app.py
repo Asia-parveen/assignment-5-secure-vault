@@ -17,7 +17,7 @@ st.markdown("""
     }
 
     section[data-testid="stSidebar"] {
-        background: linear-gradient(to bottom, #000000, #434343);
+        background: linear-gradient(to bottom, #add8e6, #87ceeb);
         color: white;
         border-right: 3px solid #6c63ff;
         padding-top: 20px;
