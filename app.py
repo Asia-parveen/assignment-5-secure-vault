@@ -194,7 +194,7 @@ elif choice.startswith("🔐"):
                         break
                 if user and users[user]["password"] == hash_password(password):
                     st.session_state.username = user
-                    st.success(f"🚀 Good to see you, Asia🎈🎉! Time to safeguard your secrets.")
+                    st.success(f"🚀 Good to see you, {user}! Ready to vault your secrets?")
                     st.balloons()
                 else:
                     st.error("❌ Invalid email or password.")
